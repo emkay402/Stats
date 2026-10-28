@@ -98,7 +98,6 @@ class StructSlides(MySlide):
         blist = BulletedList(
             "Generally speaking, the tutorial covers the topics from the preceding week",
             "The goal is to get hands-on practice with what you learn in the lecture",
-            "Attending the tutorials is mandatory",
             "Submitting homeworks is not mandatory, but is highly recommended (bonus points)",
             "Homework files can be sent to the following email:",
             "Mohammed.Mahmood@edu.ruhr-uni-bochum.de",
@@ -107,10 +106,9 @@ class StructSlides(MySlide):
             "Tutorium Files",
             buff=0.8
         ).next_to(subt, DOWN).scale(0.6).shift(RIGHT*4+UP*2)
-        blist[2].set_color(RED)
-        blist[3].set_color(PURE_CYAN)
+        blist[2].set_color(PURE_CYAN)
         blist[-1].set_color(PURE_MAGENTA)
-        blist[6].set_color(RED)
+        blist[-3].set_color(RED)
 
         blist1 = BulletedList(
             "We will use MATLAB, but you will also have access to materials in Python",
