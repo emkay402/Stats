@@ -1,0 +1,2 @@
+manim>=v0.20.1
+manim-slides[pyside6-full]>=5.7
